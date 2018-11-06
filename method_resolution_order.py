@@ -14,8 +14,7 @@ class C(A):
 		
 		
 class D(B, C):
-	def whereiam(self):
-		print "I am in D"
+	pass
 
 if __name__ == "__main__":
 	d = D()
