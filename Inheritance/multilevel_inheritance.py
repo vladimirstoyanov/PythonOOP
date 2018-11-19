@@ -30,3 +30,11 @@ class Derived2(Derived1):
 if __name__ == "__main__":
 	derived2 = Derived2()
 	derived2.derived2_method1()
+#result:
+#	Derived2 class constructor
+#	derived2_method1 method
+#	derived_method1 method
+#	base_method1 method
+#	var1: Derived 2 var1
+#	var2: Derived 2 var2
+
