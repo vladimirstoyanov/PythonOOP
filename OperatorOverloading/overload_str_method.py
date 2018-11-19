@@ -20,5 +20,5 @@ class Employee:
 emp_1 = Employee('Corey', 'Schafer', 50000)
 emp_2 = Employee('Test', 'Employer', 52000)
 
-print (str(emp_1))
-print (str(emp_2))
+print (str(emp_1)) #result: Corey Schafer - Corey.Schafer@email.com
+print (str(emp_2)) #result: Test Employer - Test.Employer@email.com
