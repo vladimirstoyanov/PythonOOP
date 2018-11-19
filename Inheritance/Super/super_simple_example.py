@@ -25,7 +25,7 @@ dev_1 = Developer('Corey', 'Schafer', 50000, 'Python')
 dev_2 = Developer('Test', 'Employer', 60000, 'Java')
 
 #print (help(Developer))
-print (dev_1.pay)
+print (dev_1.pay) #result: 50000
 dev_1.apply_raise()
-print (dev_2.pay)
+print (dev_2.pay) #result: 60000
 
