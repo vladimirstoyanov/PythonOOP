@@ -20,4 +20,4 @@ class Employee:
 emp_1 = Employee('Corey', 'Schafer', 50000)
 emp_2 = Employee('Test', 'Employer', 52000)
 
-print(emp_1 + emp_2)
+print(emp_1 + emp_2) #result: 102000
