@@ -18,4 +18,4 @@ class D(B, C):
 
 if __name__ == "__main__":
 	d = D()
-	d.whereiam()
+	d.whereiam() #result: I am in B
