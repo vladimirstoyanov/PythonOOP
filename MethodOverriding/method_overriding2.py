@@ -15,3 +15,7 @@ if __name__ == "__main__":
         l.log('Hi!')
         t = TimestampLogger()
         t.log('Hi!')
+        #result:
+        #Hi!
+        #2018-11-19T10:53:31.109373 Hi!
+

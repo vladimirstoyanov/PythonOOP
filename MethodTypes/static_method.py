@@ -18,3 +18,10 @@ if __name__ == "__main__":
         #print MyClass.method() #error
         print MyClass.classmethod()
         print MyClass.staticmethod()
+        #result:
+        #('instance method called', <__main__.MyClass instance at 0xb71d2b0c>)
+        #('class method called', <class __main__.MyClass at 0xb71d708c>)
+        #static method called
+        #('class method called', <class __main__.MyClass at 0xb71d708c>)
+        #static method called
+

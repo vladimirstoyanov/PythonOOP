@@ -13,9 +13,9 @@ class C(A):
 		print "I am in C"
 		
 		
-class D(B, C):
+class D(C, B):
 	pass
 
 if __name__ == "__main__":
 	d = D()
-	d.whereiam() #result: I am in B
+	d.whereiam() #result: I am in C

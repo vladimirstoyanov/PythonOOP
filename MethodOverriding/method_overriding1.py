@@ -14,3 +14,4 @@ class Child(Parent):
 if __name__ == "__main__":
         c = Child()
         print c.get_value()
+        #result: 6

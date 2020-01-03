@@ -30,3 +30,8 @@ class MultiDerived(Base1, Base2):
 if __name__ == "__main__":
         multi = MultiDerived()
         multi.multiderived_method1()
+        #result:
+        #MultiDerived class constructor
+        #multiderived_method1 method
+        #base1_method1 method
+        #base2_method2 method

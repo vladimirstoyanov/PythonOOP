@@ -21,6 +21,7 @@ class Developer(Employee):
 dev_1 = Developer('Corey', 'Schafer', 50000)
 dev_2 = Developer('Test', 'Employer', 52000)
 
-print (dev_1.email)
-print (dev_2.email)
+print (dev_1.email) #result: Corey.Schafer@email.com
+print (dev_2.email) #result: Test.Employer@email.com
+
 
